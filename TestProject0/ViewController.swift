@@ -11,7 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        view.backgroundColor = .red
+        
+        let label = UILabel()
+        label.text = "123"
     }
 
 
